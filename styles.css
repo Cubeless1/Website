@@ -7,6 +7,7 @@
 		color: white;
 	}
 }
+
 @media (prefers-color-scheme: dark) {
 	body {
 	background: #3C3C3C;
@@ -17,3 +18,16 @@
 	}
 }
 
+a {
+	color: #9999ff;
+}
+
+img {
+	width: 40px;
+	height: 40px;
+	margin: auto 5px;
+}
+
+.links {
+	display: flex;
+}
