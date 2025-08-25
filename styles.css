@@ -1,20 +1,26 @@
 @media (prefers-color-scheme: light) {
 	body {
-	background: #B8B8B8;
-	color: #3C3C3C;
+		background: #B8B8B8;
+		color: #3C3C3C;
 	}
-	a :hover{
+	a:hover {
 		color: white;
+	}
+	h2 a:hover, h3 a:hover {
+  		color: white;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
 	body {
-	background: #3C3C3C;
-	color: #B8B8B8;
+		background: #3C3C3C;
+		color: #B8B8B8;
 	}
-	a :hover{
+	a:hover {
 		color: black;
+	}
+	h2 a:hover, h3 a:hover {
+  		color: black;
 	}
 }
 
@@ -22,12 +28,12 @@ a {
 	color: #9999ff;
 }
 
-img {
-	width: 40px;
-	height: 40px;
-	margin: auto 5px;
-}
-
 .links {
 	display: flex;
+}
+
+i {
+	width: 50px;
+	height: 50px;
+	margin: auto 3px;
 }
