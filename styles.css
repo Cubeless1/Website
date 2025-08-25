@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: light) {
+	body {
+	background: #B8B8B8;
+	color: #3C3C3C;
+	}
+	a :hover{
+		color: white;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+	background: #3C3C3C;
+	color: #B8B8B8;
+	}
+	a :hover{
+		color: black;
+	}
+}
+
