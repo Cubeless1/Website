@@ -28,6 +28,10 @@ a {
 	color: #9999ff;
 }
 
+a:visited {
+	color: #6666ff;
+}
+
 .links {
 	display: flex;
 }
