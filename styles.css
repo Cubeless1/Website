@@ -25,7 +25,8 @@
 }
 
 .card {
-	font family: Amaranth;
+	font-family: Amaranth;
+	font-size: 22px;
 }
 
 a {
@@ -45,4 +46,5 @@ i {
 	height: 50px;
 	margin: auto 3px;
 }
+
 
